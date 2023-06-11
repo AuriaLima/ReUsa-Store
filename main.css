@@ -1,0 +1,84 @@
+header, footer {
+    position: sticky;
+    top:0;
+    left:0;
+    background-color: #fff;
+    height: 60px;
+    z-index: 999;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.carousel-container {
+    height: 300px;
+}
+
+.carousel-container img {
+max-width: 100%;
+height: auto;
+}
+
+#loja.margin-bottom-section {
+    margin-bottom: 30px;
+}
+
+#produtos.margin-bottom-section {
+    margin-bottom: 30px;
+}
+
+
+
+
+.social-links img {
+    height: 24px;
+    margin: 0px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}

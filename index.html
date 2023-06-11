@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReUsa</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>ReUsa</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#loja">Nossa loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <p></p>
+            <section id="loja" class="margin-bottom-section">
+                <h2>Nossa loja</h2>
+                <div id="carousel-exemplo"class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner carousel-container">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img src="img/diversos.jpg" alt="imagens de itens reutilizáveis">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item" >
+                            <img src="img/d.jpg" alt="imagens de itens reutilizáveis2">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img src="img/diversos3.jpg" alt="imagens de itens reutilizáveis3">
+                        </div>
+                    </div>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <p></p>
+                        <p>A ReUsa tem a missão de oferecer itens que para o dia a dia produzidos a partir de materia-prima encontrada in natura no meio ambiente.</p>
+                        <p>Nosso trabalho é ajudar o planeta com a redução da utilização do matetial plástico de forma sustentável, oferecendo as pessoas utensílios para o dia a dia 100% biodegradáveis ou reutilizáveis.</p>
+                        <p></p>
+                        <p>ReUsa-Preservar é garantir o amanhã!</p>
+                </div>
+            </section>
+            <section id="produtos"class="margin-bottom-section" >
+                <h2>Produtos</h2>
+                <div class="row card-deck d-flex align-items-end">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/canudo2.jpg" class="card-img-top" />
+                            <div class="card-body">
+                                <h4 class="card-title">Canudos Inox</h4>
+                                <h5 class="card-subtitle">4 unidades + escova de limpeza</h5>
+                                <p class="card-text">
+                                    Canudos de beber reutilizáveis feitos de metal de aço inoxidável com estojo. Lixo zero.
+                                </p>
+                                <strong>R$ 24,90</strong>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/escovas.jpg" class="card-img-top" />
+                            <div class="card-body">
+                                <h4 class="card-title">Escovas de dentes Bambu</h4>
+                                <h5 class="card-subtitle">Conj. 3 unidades</h5>
+                                <p class="card-text">
+                                    Escovas de dentes de madeira ecodegradáveis naturais com cerdas livres de BPA. Produto orgânico.
+                                </p>
+                                <strong>R$ 21,90</strong>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/talheres.jpg" class="card-img-top" />
+                            <div class="card-body">
+                                <h4 class="card-title">Talheres em madeira</h4>
+                                <h5 class="card-subtitle">Conjunto com 3 peças fácil de lavar</h5>
+                                <p class="card-text">
+                                    Conjunto de talheres em madeira reutilizável. Kit compacto excelente para levar sempre a bolsa. Produto orgânico.
+                                </p>
+                                <strong>R$ 10,60</strong>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contatos">
+                <h2>Contatos</h2>
+                <div class="contact-methods">
+                    <div>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required />
+                            <input type="email" placeholder="Seu e-mail" required />
+                            <input type="tel" placeholder="Seu telefone (Opcional)" />
+                            <textarea placeholder="Sua mensagem" required></textarea> </textarea>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="img/instagram.png" alt="Logo do Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="img/facebook.png" alt="Logo do Facebbok" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                <div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; ReUsa - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+    
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
