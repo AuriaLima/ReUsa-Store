@@ -1,5 +1,5 @@
 # ReUsa-Store
-## Portfólio - Modelo de loja online
+## Modelo de site para a composição de portfólio
 
 ## Finalidade: Loja online
 
